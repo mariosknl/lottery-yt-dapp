@@ -1,6 +1,7 @@
 import {
 	useAddress,
 	useContract,
+	useContractCall,
 	useContractData,
 	useMetamask,
 } from "@thirdweb-dev/react";
@@ -13,6 +14,7 @@ import { useState } from "react";
 import { ethers } from "ethers";
 import { currency } from "../constants";
 import { CountdownTimer } from "../components/CountdownTimer";
+import toast from "react-hot-toast";
 
 const Home: NextPage = () => {
 	const address = useAddress();
@@ -38,6 +40,38 @@ const Home: NextPage = () => {
 		contract,
 		"ticketCommission"
 	);
+
+	const { mutateAsync: BuyTickets } = useContractCall(contract, "BuyTickets");
+
+	const handleClick = async () => {
+		if (!ticketPrice) return;
+
+		const notification = toast.loading("Buying tickets...");
+
+		try {
+			const data = await BuyTickets([
+				{
+					value: ethers.utils.parseEther(
+						(
+							Number(ethers.utils.formatEther(ticketPrice)) * quantity
+						).toString()
+					),
+				},
+			]);
+
+			toast.success("Tickets bought successfully!", {
+				id: notification,
+			});
+
+			console.info("contract call success", data);
+		} catch (error) {
+			toast.error("Whoops something went wrong", {
+				id: notification,
+			});
+
+			console.error("contract call failure", error);
+		}
+	};
 
 	if (isLoading) return <Loading />;
 	if (!address) return <Login />;
@@ -137,15 +171,13 @@ const Home: NextPage = () => {
 									remainingTickets?.toNumber() === 0
 								}
 								className="mt-5 w-full bg-gradient-to-br from-orange-500 to-emerald-600 px-10 py-5 rounded-md text-white shadow-xl disabled:from-gray-600 disabled:to-gray-600 disabled:text-gray-100 disabled:cursor-not-allowed"
+								onClick={handleClick}
 							>
 								But tickets
 							</button>
 						</div>
 					</div>
 				</div>
-
-				{/* The price per ticket box */}
-				<div></div>
 			</div>
 		</div>
 	);
