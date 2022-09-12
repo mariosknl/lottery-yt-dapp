@@ -17,6 +17,7 @@ import { CountdownTimer } from "../components/CountdownTimer";
 import toast from "react-hot-toast";
 import { Footer } from "../components/Footer";
 import Marquee from "react-fast-marquee";
+import { AdminControls } from "../components/AdminControls";
 
 const Home: NextPage = () => {
 	const address = useAddress();
@@ -63,6 +64,11 @@ const Home: NextPage = () => {
 	const { data: lastWinnerAmount } = useContractData(
 		contract,
 		"lastWinnerAmount"
+	);
+
+	const { data: isLotteryOperator } = useContractData(
+		contract,
+		"lotteryOperator"
 	);
 
 	useEffect(() => {
@@ -151,6 +157,12 @@ const Home: NextPage = () => {
 						</h4>
 					</div>
 				</Marquee>
+
+				{isLotteryOperator === address && (
+					<div className="flex justify-center">
+						<AdminControls />
+					</div>
+				)}
 
 				{winnings > 0 && (
 					<div className="max-w-md md:max-w-2xl lg:max-w-4xl mx-auto mt-5">
