@@ -47,6 +47,17 @@ const Home: NextPage = () => {
 
 	const { mutateAsync: BuyTickets } = useContractCall(contract, "BuyTickets");
 
+	const { data: winnings } = useContractData(
+		contract,
+		"getWinningsForAddress",
+		address
+	);
+
+	const { mutateAsync: WithdrawWinnings } = useContractCall(
+		contract,
+		"WithdrawWinnings"
+	);
+
 	useEffect(() => {
 		if (!tickets) return;
 
@@ -59,8 +70,6 @@ const Home: NextPage = () => {
 
 		setUserTickets(noOfUserTickets);
 	}, [tickets, address]);
-
-	console.log(userTickets);
 
 	const handleClick = async () => {
 		if (!ticketPrice) return;
@@ -92,6 +101,24 @@ const Home: NextPage = () => {
 		}
 	};
 
+	const onWithdrawWinnings = async () => {
+		const notification = toast.loading("Withdrawing winnings...");
+
+		try {
+			const data = await WithdrawWinnings([{}]);
+
+			toast.success("Winnings withdrawn successfully!", {
+				id: notification,
+			});
+		} catch (error) {
+			toast.error("Whoops something went wrong", {
+				id: notification,
+			});
+
+			console.error("contract call failure", error);
+		}
+	};
+
 	if (isLoading) return <Loading />;
 	if (!address) return <Login />;
 
@@ -103,6 +130,23 @@ const Home: NextPage = () => {
 
 			<div className="flex-1">
 				<Header />
+
+				{winnings > 0 && (
+					<div className="max-w-md md:max-w-2xl lg:max-w-4xl mx-auto mt-5">
+						<button
+							onClick={onWithdrawWinnings}
+							className="p-5 bg-gradient-to-b from-orange-500 to-emerald-600 animate-pulse text-center rounded-xl w-full"
+						>
+							<p className="font-bold">Winner Winner Chicken Dinner!</p>
+							<p>
+								Total Winnings: {ethers.utils.formatEther(winnings.toString())}{" "}
+								{currency}
+							</p>
+							<br />
+							<p className="font-semibold">Click here to withdraw</p>
+						</button>
+					</div>
+				)}
 
 				{/* The Next Draw box */}
 				<div className="space-y-5 md:space-y-0 m-5 md:flex md:flex-row items-start justify-center md:space-x-5">
