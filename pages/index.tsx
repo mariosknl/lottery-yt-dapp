@@ -15,6 +15,7 @@ import { ethers } from "ethers";
 import { currency } from "../constants";
 import { CountdownTimer } from "../components/CountdownTimer";
 import toast from "react-hot-toast";
+import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
 	const address = useAddress();
@@ -223,6 +224,8 @@ const Home: NextPage = () => {
 					</div>
 				</div>
 			</div>
+
+			<Footer />
 		</div>
 	);
 };
