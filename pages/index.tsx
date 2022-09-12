@@ -16,6 +16,7 @@ import { currency } from "../constants";
 import { CountdownTimer } from "../components/CountdownTimer";
 import toast from "react-hot-toast";
 import { Footer } from "../components/Footer";
+import Marquee from "react-fast-marquee";
 
 const Home: NextPage = () => {
 	const address = useAddress();
@@ -56,6 +57,12 @@ const Home: NextPage = () => {
 	const { mutateAsync: WithdrawWinnings } = useContractCall(
 		contract,
 		"WithdrawWinnings"
+	);
+
+	const { data: lastWinner } = useContractData(contract, "lastWinner");
+	const { data: lastWinnerAmount } = useContractData(
+		contract,
+		"lastWinnerAmount"
 	);
 
 	useEffect(() => {
@@ -130,6 +137,20 @@ const Home: NextPage = () => {
 
 			<div className="flex-1">
 				<Header />
+
+				<Marquee className="bg-[#0A1F1C]" gradient={false} speed={100}>
+					<div className="flex space-x-2 mx-10">
+						<h4 className="text-white font-bold">
+							Last Winner: {lastWinner?.toString()}
+						</h4>
+						<h4 className="text-white font-bold">
+							Previous Winnings:{" "}
+							{lastWinnerAmount &&
+								ethers.utils.formatEther(lastWinnerAmount?.toString())}{" "}
+							{currency}
+						</h4>
+					</div>
+				</Marquee>
 
 				{winnings > 0 && (
 					<div className="max-w-md md:max-w-2xl lg:max-w-4xl mx-auto mt-5">
