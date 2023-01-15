@@ -1322,10 +1322,10 @@
     tiny-invariant "^1.2.0"
     wagmi "^0.2.28"
 
-"@thirdweb-dev/sdk@3.6.8":
-  version "3.6.8"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.6.8.tgz#c4d0841095247b5ced0ff1c7f5d32b0a115acd81"
-  integrity sha512-0+PD4C8eF+KAyADa1dpOT3095f0Weiud/PSQwJY+FxHZ7FaS3T3Gql3L+HqPLyaK6TlIdGvrPFCAUulymbSSoA==
+"@thirdweb-dev/sdk@3.6.9":
+  version "3.6.9"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.6.9.tgz#e846562a32d526af0f35eade940fd203cbf1fc62"
+  integrity sha512-SXlVo4EVetGUDSou82oWKz9/zWnIuvRnwGrcbN5yAEnqZXlmYqfzbheuSylFXqUkTkoEVwy4Gs9IWyKayWvTXA==
   dependencies:
     "@metaplex-foundation/js" "^0.17.6"
     "@metaplex-foundation/mpl-token-metadata" "^2.3.3"
