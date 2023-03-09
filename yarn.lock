@@ -1031,20 +1031,20 @@
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.4.1.tgz#e5a63e705b2f2014fe3fabf3e30209e3c5034348"
   integrity sha512-BURfuFYZhJOmoycDwo8iaKUi+rdjt9vRGFd0vquqNjL2vQdI7dXqdbuJuOepIwGld5gvRNM+WlnVQ8EZgQIjqg==
 
-"@thirdweb-dev/react-core@^3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react-core/-/react-core-3.10.0.tgz#75a79957595349c87919407b0dfb3330783673dc"
-  integrity sha512-YF8F5+G2I6Ny/QBB4PCw1NmQ3PUMV7SIJrCY5T1nob9OATJf2G4IcKbn4lm6Tqi3DgB65S/s1WX0F4tsM4dxzg==
+"@thirdweb-dev/react-core@^3.10.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react-core/-/react-core-3.10.1.tgz#5dce7fd41ef82d60cf71322c333c2539b4613e91"
+  integrity sha512-NyK0KJ8WMZKPDNp0sDvsPG57U31csRtXTcmVnbYBsP2h45jFE53T6tBsQLg3rDslH9lSSEX183avmEDs5yy4ug==
   dependencies:
     "@tanstack/react-query" "^4.0.10"
     "@thirdweb-dev/auth" "^3.0.7"
     "@thirdweb-dev/chains" "^0.1.6"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/react@3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-3.10.0.tgz#7c45054a88ecd929ebd8826021d3db143214f42d"
-  integrity sha512-M64uQRi1qDdhncZ/Nj97gFEDLBB9T5b7hNGqYvcX5pbAT+qmxNtY/39bt1eUQMoY6BN5ufiuGV3V6TI0nDK4Rw==
+"@thirdweb-dev/react@3.10.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-3.10.1.tgz#646348f5af24da167c8705a043dfabf035b518c7"
+  integrity sha512-EQjrpRn5Xo3jROjIE4O2I4nSvHs50MlaaHhceYn6xp4MMAOhmvdMmsqOlG8shyxJtPCInHQWCezdfQzc3iJthw==
   dependencies:
     "@emotion/react" "^11.10.0"
     "@emotion/styled" "^11.10.0"
@@ -1055,7 +1055,7 @@
     "@safe-global/safe-ethers-lib" "^1.7.0"
     "@tanstack/react-query" "^4.0.10"
     "@thirdweb-dev/chains" "^0.1.6"
-    "@thirdweb-dev/react-core" "^3.10.0"
+    "@thirdweb-dev/react-core" "^3.10.1"
     "@thirdweb-dev/wallets" "^0.2.7"
     "@zag-js/menu" "0.3.4"
     "@zag-js/react" "0.3.4"
@@ -1137,12 +1137,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.16.tgz#0eb3cce1e37c79619943d2fd903919fc30850601"
   integrity sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==
 
-"@types/node@18.14.6":
-  version "18.14.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.6.tgz#ae1973dd2b1eeb1825695bb11ebfb746d27e3e93"
-  integrity sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==
-
-"@types/node@>=13.7.0":
+"@types/node@18.14.6", "@types/node@>=13.7.0":
   version "18.14.6"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.6.tgz#ae1973dd2b1eeb1825695bb11ebfb746d27e3e93"
   integrity sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==
