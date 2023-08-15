@@ -1705,10 +1705,6 @@
     form-data "^4.0.0"
     uuid "^9.0.0"
 
-"@thirdweb-dev/wallets@1.1.14":
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/wallets/-/wallets-1.1.14.tgz#6aec70e364b0feb0a34c09484603afe1a6dba59b"
-  integrity sha512-8lAB4AJYdEdMUnDNzaOf+JICNjdvtb2+8hdSSCoGIPA/F11HyIwfXgRL5fGHf9D3H9li4pclUJt89TxIJHRL0Q==
   dependencies:
     "@account-abstraction/contracts" "^0.5.0"
     "@account-abstraction/sdk" "^0.5.0"
