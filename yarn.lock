@@ -1624,22 +1624,15 @@
     uuid "^9.0.0"
     zod "^3.20.2"
 
-"@thirdweb-dev/chains@0.1.43":
-  version "0.1.43"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.43.tgz#4366c10450227624a83d1c9723733f2a94af1d13"
-  integrity sha512-Iks15g6+06YZTtdROKWx+jQt3Nte/ztuZZuVHK8pSisbiNMAy3Ga3XNdJLmcfCTXTanwF4y5JhRFQAtNKLDHSA==
-
 "@thirdweb-dev/chains@0.1.47":
   version "0.1.47"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.47.tgz#eda635a0ae33c4daf224f891d670679aa0521f45"
   integrity sha512-9LQOurJf+20BJ6upnlFPsNFdDHj/Cup2IhX5jPY/hNzq109+TbEoafd/bpoFvcEsKx53IGdLjno2tra2o9fi0g==
 
-"@thirdweb-dev/contracts-js@1.3.11":
-  version "1.3.11"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts-js/-/contracts-js-1.3.11.tgz#12bffe133228436487d0a1298657242e137f08d5"
-  integrity sha512-Qh7vEt7egILk7QHbl9y8Yi78MNP+JGogA/g2+Ybr8mY2vZB2I8zpyyHKC60fwMaoGanvm+mIThFCIDXCnmz2Aw==
-  dependencies:
-    "@thirdweb-dev/contracts" "3.8.3"
+"@thirdweb-dev/chains@0.1.48":
+  version "0.1.48"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.48.tgz#d5ad24341e5143ef0706b2b060acdad8ab96b2af"
+  integrity sha512-Zij4Os8ezDXPVyetml3RNIxOP58zIKm86Yb85GuHa7y6f6iEDTLvBtwjOmwQZM+19e83T89jSrxB/yFxL8T5JA==
 
 "@thirdweb-dev/contracts-js@1.3.12":
   version "1.3.12"
@@ -1647,11 +1640,6 @@
   integrity sha512-CBgxCYea7fst4bSS1dXDDOOB2rb9FsgFCAUzQPSQIlpqajOJES1fEPZc/TlFz7u444AYxA/9NoHesQ9RipQUgA==
   dependencies:
     "@thirdweb-dev/contracts" "3.8.5"
-
-"@thirdweb-dev/contracts@3.8.3":
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.8.3.tgz#2424e5179e4cab56fe73fb74a529ea5d559287f9"
-  integrity sha512-J1CRG8bZ/Y9x7jgd0kmu0LDgV3l+s6wBO/ohCJeOamxuXp9ubYMXr1DFmFHnNphmEHnQfLt459nu8qwGJ9ip6Q==
 
 "@thirdweb-dev/contracts@3.8.5":
   version "3.8.5"
@@ -1716,29 +1704,6 @@
     react-qr-code "^2.0.11"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@3.10.50":
-  version "3.10.50"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.50.tgz#9115048df29a3a48b6721ce002cc1282e632e99f"
-  integrity sha512-LaH8cauaCa+ngCt4VYmKz5k0mHaf4MG7ePoGeND86RP+LWv7j7lBIeg4XcCbbp3nIrBgtS9+5wZZrmU1ceSYZg==
-  dependencies:
-    "@thirdweb-dev/chains" "0.1.43"
-    "@thirdweb-dev/contracts-js" "1.3.11"
-    "@thirdweb-dev/generated-abis" "0.0.1"
-    "@thirdweb-dev/storage" "1.2.5"
-    abitype "^0.2.5"
-    bn.js "^5.2.1"
-    bs58 "^5.0.0"
-    buffer "^6.0.3"
-    cross-fetch "^3.1.8"
-    eventemitter3 "^5.0.1"
-    fast-deep-equal "^3.1.3"
-    merkletreejs "^0.2.24"
-    tiny-invariant "^1.2.0"
-    tweetnacl "^1.0.3"
-    uuid "^9.0.0"
-    yaml "^2.3.1"
-    zod "^3.20.2"
-
 "@thirdweb-dev/sdk@3.10.55":
   version "3.10.55"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.55.tgz#696a10d0d0ba717d291a8c63e79e58eccd80f56b"
@@ -1762,40 +1727,28 @@
     yaml "^2.3.1"
     zod "^3.20.2"
 
-"@thirdweb-dev/storage@1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-1.2.5.tgz#8493c9ca0d9fa32d286f90c0f134543e7b6a44ae"
-  integrity sha512-eZlcNe6mS9JaH25+BgZERkoQRkaX4yB6Qv3frnohJiMYeWvz0zCcTmgcYC5pIZhD/iGFct7mD6N0IY6+eysrwQ==
+"@thirdweb-dev/sdk@3.10.56":
+  version "3.10.56"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.56.tgz#a85e6952220a4ffe1d73ff279267cc426bc7a26c"
+  integrity sha512-IWYGvK53s2HgXY1hOcy8f4Bn6LCxV0/ie+y6QEGoWPYY8YfiOviMb23lop4RbS9SyRGR4fPVpXQz2rLSVWWW6w==
   dependencies:
-    "@account-abstraction/contracts" "^0.5.0"
-    "@account-abstraction/sdk" "^0.5.0"
-    "@account-abstraction/utils" "^0.5.0"
-    "@blocto/sdk" "^0.5.4"
-    "@coinbase/wallet-sdk" "^3.7.1"
-    "@magic-ext/connect" "^6.7.2"
-    "@magic-ext/oauth" "^7.6.2"
-    "@magic-sdk/provider" "^13.6.2"
-    "@paperxyz/embedded-wallet-service-sdk" "^1.1.3"
-    "@safe-global/safe-core-sdk" "^3.3.4"
-    "@safe-global/safe-ethers-adapters" "0.1.0-alpha.17"
-    "@safe-global/safe-ethers-lib" "^1.9.4"
-    "@thirdweb-dev/chains" "0.1.43"
-    "@thirdweb-dev/contracts-js" "1.3.11"
-    "@thirdweb-dev/sdk" "3.10.50"
-    "@walletconnect/core" "^2.9.1"
-    "@walletconnect/ethereum-provider" "^2.9.1"
-    "@walletconnect/jsonrpc-utils" "^1.0.8"
-    "@walletconnect/modal" "^2.6.1"
-    "@walletconnect/types" "^2.9.1"
-    "@walletconnect/utils" "^2.9.1"
-    "@walletconnect/web3wallet" "^1.8.7"
+    "@thirdweb-dev/chains" "0.1.48"
+    "@thirdweb-dev/contracts-js" "1.3.12"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/storage" "1.2.8"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
     buffer "^6.0.3"
     cross-fetch "^3.1.8"
-    crypto-js "^4.1.1"
-    eth-provider "^0.13.6"
     eventemitter3 "^5.0.1"
-    magic-sdk "^13.6.2"
-    web3-core "1.5.2"
+    fast-deep-equal "^3.1.3"
+    merkletreejs "^0.2.24"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.0"
+    yaml "^2.3.1"
+    zod "^3.20.2"
 
 "@thirdweb-dev/storage@1.2.8":
   version "1.2.8"
