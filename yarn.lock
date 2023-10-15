@@ -1762,6 +1762,28 @@
     yaml "^2.3.1"
     zod "^3.22.3"
 
+"@thirdweb-dev/sdk@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.2.tgz#0a1d541b771e55fe0ca9522623b711fdf413ee1e"
+  integrity sha512-WhJvlEOqVtGLpcp18R3MbfiJlLmKBHeOu3Unn4qolMyxaiwCQ20m99SlCf3le2sBRfRvddH5CjGhpPHgwMcX3A==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.54"
+    "@thirdweb-dev/contracts-js" "1.3.14"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/storage" "2.0.0"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    eventemitter3 "^5.0.1"
+    fast-deep-equal "^3.1.3"
+    merkletreejs "^0.2.24"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.1"
+    yaml "^2.3.1"
+    zod "^3.22.3"
+
 "@thirdweb-dev/storage@1.2.11":
   version "1.2.11"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-1.2.11.tgz#dba2c0725ee0e16bb5b5609d3667bec1fbd2924e"
@@ -1807,10 +1829,6 @@
     form-data "^4.0.0"
     uuid "^9.0.1"
 
-"@thirdweb-dev/wallets@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/wallets/-/wallets-2.0.3.tgz#d5375db90437a7f62095293caa502b79c17e1ed1"
-  integrity sha512-jbhJXDv1ZCp0F7YHEvM95xvRAkH/PCj0YYmByeA7uP2hCzs94zWoXE0DV/9nJND1Fjs9VX7m9+UTU7wJw/BYmQ==
   dependencies:
     "@account-abstraction/contracts" "^0.5.0"
     "@account-abstraction/sdk" "^0.5.0"
