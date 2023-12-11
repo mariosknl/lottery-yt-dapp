@@ -1184,20 +1184,20 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@radix-ui/react-dialog@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-1.0.4.tgz#06bce6c16bb93eb36d7a8589e665a20f4c1c52c1"
-  integrity sha512-hJtRy/jPULGQZceSAP2Re6/4NpKo8im6V8P2hUqZsdFiSL8l35kYsw3qbRI6Ay5mQd2+wlLqje770eq+RJ3yZg==
+"@radix-ui/react-dialog@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-1.0.5.tgz#71657b1b116de6c7a0b03242d7d43e01062c7300"
+  integrity sha512-GjWJX/AUpB703eEBanuBnIWdIXg6NvJFCXcNlSZk4xdszCdhrJgBoUd1cGk67vFO+WdA2pfI/plOpqz/5GUP6Q==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/primitive" "1.0.1"
     "@radix-ui/react-compose-refs" "1.0.1"
     "@radix-ui/react-context" "1.0.1"
-    "@radix-ui/react-dismissable-layer" "1.0.4"
+    "@radix-ui/react-dismissable-layer" "1.0.5"
     "@radix-ui/react-focus-guards" "1.0.1"
-    "@radix-ui/react-focus-scope" "1.0.3"
+    "@radix-ui/react-focus-scope" "1.0.4"
     "@radix-ui/react-id" "1.0.1"
-    "@radix-ui/react-portal" "1.0.3"
+    "@radix-ui/react-portal" "1.0.4"
     "@radix-ui/react-presence" "1.0.1"
     "@radix-ui/react-primitive" "1.0.3"
     "@radix-ui/react-slot" "1.0.2"
@@ -1216,6 +1216,18 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.0.4.tgz#883a48f5f938fa679427aa17fcba70c5494c6978"
   integrity sha512-7UpBa/RKMoHJYjie1gkF1DlK8l1fdU/VKDpoS3rCCo8YBJR294GwcEHyxHw72yvphJ7ld0AXEcSLAzY2F/WyCg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "1.0.1"
+    "@radix-ui/react-compose-refs" "1.0.1"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-use-callback-ref" "1.0.1"
+    "@radix-ui/react-use-escape-keydown" "1.0.3"
+
+"@radix-ui/react-dismissable-layer@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.0.5.tgz#3f98425b82b9068dfbab5db5fff3df6ebf48b9d4"
+  integrity sha512-aJeDjQhywg9LBu2t/At58hCvr7pEm0o2Ke1x33B+MhjNmmZ17sy4KImo0KPLgsnc/zN7GPdce8Cnn0SWvwZO7g==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/primitive" "1.0.1"
@@ -1249,6 +1261,16 @@
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-scope/-/react-focus-scope-1.0.3.tgz#9c2e8d4ed1189a1d419ee61edd5c1828726472f9"
   integrity sha512-upXdPfqI4islj2CslyfUBNlaJCPybbqRHAi1KER7Isel9Q2AtSJ0zRBZv8mWQiFXD2nyAJ4BhC3yXgZ6kMBSrQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "1.0.1"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-use-callback-ref" "1.0.1"
+
+"@radix-ui/react-focus-scope@1.0.4", "@radix-ui/react-focus-scope@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-scope/-/react-focus-scope-1.0.4.tgz#2ac45fce8c5bb33eb18419cdc1905ef4f1906525"
+  integrity sha512-sL04Mgvf+FmyvZeYfNu1EPAaaxD+aw7cYeIB9L9Fvq8+urhltTRaEo5ysKOpHuKPclsZcSUMKlN05x4u+CINpA==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-compose-refs" "1.0.1"
@@ -1336,6 +1358,14 @@
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-portal/-/react-portal-1.0.3.tgz#ffb961244c8ed1b46f039e6c215a6c4d9989bda1"
   integrity sha512-xLYZeHrWoPmA5mEKEfZZevoVRK/Q43GfzRXkWV6qawIWWK8t6ifIiLQdd7rmQ4Vk1bmI21XhqF9BN3jWf+phpA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-primitive" "1.0.3"
+
+"@radix-ui/react-portal@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-portal/-/react-portal-1.0.4.tgz#df4bfd353db3b1e84e639e9c63a5f2565fb00e15"
+  integrity sha512-Qki+C/EuGUVCQTOTD5vzJzJuMUlewbzuKyUy+/iHM2uwGiru9gZeBJtHAPKAEkB5KWGi9mP/CHKcY0wt1aW45Q==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-primitive" "1.0.3"
@@ -1730,13 +1760,13 @@
     "@tanstack/query-core" "4.33.0"
     use-sync-external-store "^1.2.0"
 
-"@thirdweb-dev/auth@4.1.13":
-  version "4.1.13"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/auth/-/auth-4.1.13.tgz#1eb35e75fba20a30a4bc9c45ef33ea90317c5a7c"
-  integrity sha512-9NnCJtTEkyjUTH6Jp0lq4kmisct27ixKEo9ueJk3gz6Y8f59xh9h4cqYa1B0kpMckYtNdqYlyjZSsv6142nXzQ==
+"@thirdweb-dev/auth@4.1.16":
+  version "4.1.16"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/auth/-/auth-4.1.16.tgz#dc1f93480b647d4d60db4133c63e756991ec1df0"
+  integrity sha512-0T+SFZt+ggtgh598lZrq+TsYZhi4ZYz84wu8nrcc77n0czrcsFXONFlckjpx+Q/JZ3SzluFXad+W6znkS+RneA==
   dependencies:
     "@fastify/cookie" "^9.1.0"
-    "@thirdweb-dev/wallets" "2.1.10"
+    "@thirdweb-dev/wallets" "2.2.1"
     cookie "^0.5.0"
     fastify-type-provider-zod "^1.1.9"
     uuid "^9.0.1"
@@ -1746,6 +1776,11 @@
   version "0.1.60"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.60.tgz#d6e553d2198dd0f7a5702cea81f214dd1b3f009c"
   integrity sha512-f0M19fDwOFTbcWhw09DikLzxvz+OBKdT0PC2r7Npj5GfWx8p40cf428Gsvmd5xDRk9mkeANYdGb3dM5iLbC3Gg==
+
+"@thirdweb-dev/chains@0.1.61":
+  version "0.1.61"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.61.tgz#4798164d1e7f07269c04f821e4d56102b476d3ae"
+  integrity sha512-SlFXjqtqZbGqSYKv1HEhGIG03QjnkQPrgLO7WAar7/ZreEqDb3CtUzysSXnblfMqDDwe51dmWBcZ3dXXtTSZxg==
 
 "@thirdweb-dev/contracts-js@1.3.16":
   version "1.3.16"
@@ -1793,41 +1828,42 @@
     buffer-reverse "^1.0.1"
     treeify "^1.1.0"
 
-"@thirdweb-dev/react-core@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react-core/-/react-core-4.1.11.tgz#17377602f70ea44a6e657f3b74b8736ed9e9b74f"
-  integrity sha512-eNUS+hiMlQ2npF30fAPr0d96Z9yIz8XgdeWEj96Z9d/aLdnZkyJGSDZqmHehOMw96Hw/f4V6c1AFpRohuBFf3A==
+"@thirdweb-dev/react-core@4.1.14":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react-core/-/react-core-4.1.14.tgz#84b7d0150f465049547ed196431d5bfeec84d982"
+  integrity sha512-1QXVwZkFUv5Qm8jgm5pJ6aZaUG8UVi9QKQUzBYhjvE10G5gS3j2Nm6A+QuVrpoidxmOgcvDkOOPS/fKFQbdgoA==
   dependencies:
     "@tanstack/react-query" "^4.33.0"
-    "@thirdweb-dev/auth" "4.1.13"
-    "@thirdweb-dev/chains" "0.1.60"
+    "@thirdweb-dev/auth" "4.1.16"
+    "@thirdweb-dev/chains" "0.1.61"
     "@thirdweb-dev/generated-abis" "^0.0.1"
-    "@thirdweb-dev/sdk" "4.0.18"
-    "@thirdweb-dev/storage" "2.0.6"
-    "@thirdweb-dev/wallets" "2.1.10"
+    "@thirdweb-dev/sdk" "4.0.21"
+    "@thirdweb-dev/storage" "2.0.7"
+    "@thirdweb-dev/wallets" "2.2.1"
     mime "3.0.0"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/react@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-4.1.11.tgz#74e2ca2fdabb206c8415c542d94c28f65be24411"
-  integrity sha512-eg8RrDYgNXI0qqIsMRAH3yFa0EXLqZxGf8mzi+/Q7mGisaCZJFTUjDkp8nPxOkd6SCNwJzr4iFA7tV0k5sAILg==
+"@thirdweb-dev/react@4.1.14":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-4.1.14.tgz#627f428e76c939134f285122c5197a63720217ad"
+  integrity sha512-dUUM9nwuSR+FFkHXTrozmzwZx8sDCM/GH2ScCV5A9Zt3w09S6Xj0g8MHta+bTpd05CX+JLJyJ94dyGCvbT+toA==
   dependencies:
     "@emotion/react" "^11.11.1"
     "@emotion/styled" "^11.11.0"
     "@google/model-viewer" "^2.1.1"
     "@radix-ui/colors" "^0.1.9"
-    "@radix-ui/react-dialog" "^1.0.4"
+    "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
+    "@radix-ui/react-focus-scope" "^1.0.4"
     "@radix-ui/react-icons" "^1.3.0"
     "@radix-ui/react-popover" "^1.0.6"
     "@radix-ui/react-tabs" "^1.0.4"
     "@radix-ui/react-tooltip" "^1.0.6"
     "@react-icons/all-files" "^4.1.0"
     "@tanstack/react-query" "^4.33.0"
-    "@thirdweb-dev/chains" "0.1.60"
-    "@thirdweb-dev/react-core" "4.1.11"
-    "@thirdweb-dev/wallets" "2.1.10"
+    "@thirdweb-dev/chains" "0.1.61"
+    "@thirdweb-dev/react-core" "4.1.14"
+    "@thirdweb-dev/wallets" "2.2.1"
     buffer "^6.0.3"
     copy-to-clipboard "^3.3.2"
     detect-browser "^5.3.0"
@@ -1858,6 +1894,29 @@
     yaml "^2.3.1"
     zod "^3.22.3"
 
+"@thirdweb-dev/sdk@4.0.21":
+  version "4.0.21"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.21.tgz#8284701407ba3f0b686575dd323a6676ea27e385"
+  integrity sha512-ycJBeYWEXqMyLA29/vFdVJToegL1UOBguM8gHgy7mAKaCTB0X5k5U2TbCfLIkuyAayOnhovN8zMjJb65udrQng==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.61"
+    "@thirdweb-dev/contracts-js" "1.3.16"
+    "@thirdweb-dev/crypto" "0.2.0"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/merkletree" "0.2.0"
+    "@thirdweb-dev/storage" "2.0.7"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    eventemitter3 "^5.0.1"
+    fast-deep-equal "^3.1.3"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.1"
+    yaml "^2.3.1"
+    zod "^3.22.3"
+
 "@thirdweb-dev/storage@2.0.6":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-2.0.6.tgz#feeb0bdbfc6b314b9ecc47c699154dc33b98c578"
@@ -1868,10 +1927,20 @@
     form-data "^4.0.0"
     uuid "^9.0.1"
 
-"@thirdweb-dev/wallets@2.1.10":
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/wallets/-/wallets-2.1.10.tgz#5f09c142e6e0644fcd45843e6cfe0ea1a3883a0c"
-  integrity sha512-3EPjRLahAJXPcRvKYSSDdhhCROQ8zFhSb2o1cFpCuHPrItSj8tg2R7xWFNQsKRwDE3Tv7QszeD5b6d727PfPzw==
+"@thirdweb-dev/storage@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-2.0.7.tgz#249b5bb2949156542cc715b5262f8c88dd0370de"
+  integrity sha512-pi+wfUycHWoOVxD+CZtfGprP9+yQ2PgErsYwWbW3/pQtk8uatvGJMPgMNYsiu6G3B1V3xokBfnmCTsONjz+YNw==
+  dependencies:
+    "@thirdweb-dev/crypto" "0.2.0"
+    cid-tool "^3.0.0"
+    form-data "^4.0.0"
+    uuid "^9.0.1"
+
+"@thirdweb-dev/wallets@2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/wallets/-/wallets-2.2.1.tgz#950431ad2ffa8e0fda9c91a347cbcca5cf5c4fb2"
+  integrity sha512-7XxPYTmkw6bnJfBcbKY9ZmbiB+ib3Rm1wJiHYOU26AcZGIm7Cjyux5i6DAf2bFXzXY4YYtHVGY2TR4NWfY/e8A==
   dependencies:
     "@account-abstraction/contracts" "^0.5.0"
     "@account-abstraction/sdk" "^0.5.0"
@@ -1888,10 +1957,10 @@
     "@safe-global/safe-core-sdk" "^3.3.4"
     "@safe-global/safe-ethers-adapters" "0.1.0-alpha.17"
     "@safe-global/safe-ethers-lib" "^1.9.4"
-    "@thirdweb-dev/chains" "0.1.60"
+    "@thirdweb-dev/chains" "0.1.61"
     "@thirdweb-dev/contracts-js" "1.3.16"
     "@thirdweb-dev/crypto" "0.2.0"
-    "@thirdweb-dev/sdk" "4.0.18"
+    "@thirdweb-dev/sdk" "4.0.21"
     "@walletconnect/core" "^2.9.1"
     "@walletconnect/ethereum-provider" "^2.9.1"
     "@walletconnect/jsonrpc-utils" "^1.0.8"
