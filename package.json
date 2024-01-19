@@ -9,7 +9,7 @@
     "@heroicons/react": "2.1.1",
     "@thirdweb-dev/sdk": "4.0.27",
     "@thirdweb-dev/react": "4.3.2",
-    "ethers": "6.9.2",
+    "ethers": "6.10.0",
     "next": "latest",
     "react": "18.2.0",
     "react-countdown": "2.3.5",
