@@ -8,7 +8,7 @@
   "dependencies": {
     "@heroicons/react": "2.1.1",
     "@thirdweb-dev/sdk": "4.0.27",
-    "@thirdweb-dev/react": "4.2.3",
+    "@thirdweb-dev/react": "4.3.2",
     "ethers": "6.9.2",
     "next": "latest",
     "react": "18.2.0",
