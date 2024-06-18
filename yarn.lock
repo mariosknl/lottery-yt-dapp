@@ -290,7 +290,7 @@
     bufio "^1.0.7"
     chai "^4.3.4"
 
-"@eth-optimism/core-utils@0.13.2":
+"@eth-optimism/core-utils@0.13.2", "@eth-optimism/core-utils@^0.13.2":
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/@eth-optimism/core-utils/-/core-utils-0.13.2.tgz#c0187c3abf6d86dad039edf04ff81299253214fe"
   integrity sha512-u7TOKm1RxH1V5zw7dHmfy91bOuEAZU68LT/9vJPkuWEjaTl+BgvPDRDTurjzclHzN0GbWdcpOqPZg4ftjkJGaw==
@@ -318,6 +318,18 @@
     "@eth-optimism/contracts" "0.6.0"
     "@eth-optimism/contracts-bedrock" "0.17.2"
     "@eth-optimism/core-utils" "0.13.2"
+    lodash "^4.17.21"
+    merkletreejs "^0.3.11"
+    rlp "^2.2.7"
+    semver "^7.6.0"
+
+"@eth-optimism/sdk@3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@eth-optimism/sdk/-/sdk-3.3.2.tgz#68a5f6e77f9c85f6eeb9db8044b3b69199520eb0"
+  integrity sha512-+zhxT0YkBIEzHsuIayQGjr8g9NawZo6/HYfzg1NSEFsE2Yt0NyCWqVDFTuuak0T6AvIa2kNcl3r0Z8drdb2QmQ==
+  dependencies:
+    "@eth-optimism/contracts" "0.6.0"
+    "@eth-optimism/core-utils" "^0.13.2"
     lodash "^4.17.21"
     merkletreejs "^0.3.11"
     rlp "^2.2.7"
@@ -1970,6 +1982,11 @@
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.116.tgz#46fe3cd419ea4df18b3e732addfe4a5754121e4e"
   integrity sha512-J7XgEGM/9vCxXAzBmxUj0ToSTk1jRtmk6+D+N9CyDHik7aaZjMzeeCLaBTXBtUDLVA72N/5tWPOhopZMFDddrA==
 
+"@thirdweb-dev/chains@0.1.120":
+  version "0.1.120"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.120.tgz#bf5a1e16eb5ef9bf57c54c544f0c6cfa8844ef54"
+  integrity sha512-6wj8eIylLk8wSyTUeN70LD72yN+QIwyynDfKtVGJXTcrEN2K+vuqnRE20gvA2ayX7KMyDyy76JxPlyv6SZyLGw==
+
 "@thirdweb-dev/contracts-js@1.3.23":
   version "1.3.23"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts-js/-/contracts-js-1.3.23.tgz#6140115cfc570100e69c27bbf9ff8ce99b9bb79b"
@@ -2087,6 +2104,31 @@
     eventemitter3 "^5.0.1"
     fast-deep-equal "^3.1.3"
     thirdweb "5.28.0"
+    tiny-invariant "^1.3.3"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.1"
+    yaml "^2.4.1"
+    zod "^3.22.4"
+
+"@thirdweb-dev/sdk@4.0.99":
+  version "4.0.99"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.99.tgz#07c4e0a2f2ec80bdd79df1d6565e11d42336fa4f"
+  integrity sha512-Zm1K+tmzz5mnVBues68Bi6vRO6RIjeiblt8URGxoyXNtfLNOmDDZ4t8Znsjg/oegrvh5LyT1XnZfepBZdl0ZSw==
+  dependencies:
+    "@eth-optimism/sdk" "3.3.2"
+    "@thirdweb-dev/chains" "0.1.120"
+    "@thirdweb-dev/contracts-js" "1.3.23"
+    "@thirdweb-dev/crypto" "0.2.6"
+    "@thirdweb-dev/generated-abis" "0.0.2"
+    "@thirdweb-dev/merkletree" "0.2.6"
+    "@thirdweb-dev/storage" "2.0.15"
+    abitype "1.0.0"
+    bn.js "5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    eventemitter3 "^5.0.1"
+    fast-deep-equal "^3.1.3"
+    thirdweb "5.29.6"
     tiny-invariant "^1.3.3"
     tweetnacl "^1.0.3"
     uuid "^9.0.1"
@@ -6486,6 +6528,34 @@ thirdweb@5.28.0:
     uqr "0.1.2"
     viem "2.10.9"
 
+thirdweb@5.29.6:
+  version "5.29.6"
+  resolved "https://registry.yarnpkg.com/thirdweb/-/thirdweb-5.29.6.tgz#3f801de1d8cdf43423f24cf65168bf84a3e0d214"
+  integrity sha512-OR/YjArZE2gc72kwJENbbWqxT6AY/X7phdyuu9GgG2O56/vbr4rytKdPesGUeYZ3dY5moUgZZgff+FmQhW0OCA==
+  dependencies:
+    "@coinbase/wallet-sdk" "4.0.3"
+    "@emotion/react" "11.11.4"
+    "@emotion/styled" "11.11.0"
+    "@google/model-viewer" "2.1.1"
+    "@noble/curves" "1.4.0"
+    "@noble/hashes" "1.4.0"
+    "@passwordless-id/webauthn" "^1.6.1"
+    "@radix-ui/react-dialog" "1.0.5"
+    "@radix-ui/react-focus-scope" "1.0.4"
+    "@radix-ui/react-icons" "1.3.0"
+    "@radix-ui/react-tooltip" "1.0.7"
+    "@tanstack/react-query" "5.29.2"
+    "@walletconnect/ethereum-provider" "2.12.2"
+    "@walletconnect/sign-client" "^2.13.1"
+    abitype "1.0.0"
+    fast-text-encoding "^1.0.6"
+    fuse.js "7.0.0"
+    input-otp "^1.2.4"
+    mipd "0.0.7"
+    node-libs-browser "2.2.1"
+    uqr "0.1.2"
+    viem "2.13.7"
+
 thread-stream@^0.15.1:
   version "0.15.2"
   resolved "https://registry.yarnpkg.com/thread-stream/-/thread-stream-0.15.2.tgz#fb95ad87d2f1e28f07116eb23d85aba3bc0425f4"
@@ -6811,6 +6881,20 @@ viem@2.10.9:
   version "2.10.9"
   resolved "https://registry.yarnpkg.com/viem/-/viem-2.10.9.tgz#2ccd69cb073b547507ea86c42c122daa3128af55"
   integrity sha512-XsbEXhOcmQOkI80zDLW0EdksimNuYTS61HZ03vQYpHoug7gwVHDQ83nY+nuyT7punuFx0fmRG6+HZg3yVQhptQ==
+  dependencies:
+    "@adraffy/ens-normalize" "1.10.0"
+    "@noble/curves" "1.2.0"
+    "@noble/hashes" "1.3.2"
+    "@scure/bip32" "1.3.2"
+    "@scure/bip39" "1.2.1"
+    abitype "1.0.0"
+    isows "1.0.4"
+    ws "8.13.0"
+
+viem@2.13.7:
+  version "2.13.7"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.13.7.tgz#c1153c02f7ffaf0263d784fc1d4e4ffa3f66c24a"
+  integrity sha512-SZWn9LPrz40PHl4PM2iwkPTTtjWPDFsnLr32UwpqC/Z5f0AwxitjLyZdDKcImvbWZ3vLQ0oPggR1aLlqvTcUug==
   dependencies:
     "@adraffy/ens-normalize" "1.10.0"
     "@noble/curves" "1.2.0"
