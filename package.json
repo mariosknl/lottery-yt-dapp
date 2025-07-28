@@ -11,9 +11,9 @@
     "@thirdweb-dev/react": "4.9.4",
     "ethers": "6.15.0",
     "next": "latest",
-    "react": "19.1.0",
+    "react": "19.1.1",
     "react-countdown": "2.3.6",
-    "react-dom": "19.1.0",
+    "react-dom": "19.1.1",
     "react-fast-marquee": "1.6.5",
     "react-hot-toast": "2.5.2",
     "react-spinners": "0.17.0"
