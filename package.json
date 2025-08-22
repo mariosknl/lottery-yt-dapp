@@ -19,7 +19,7 @@
     "react-spinners": "0.17.0"
   },
   "devDependencies": {
-    "@types/react": "19.1.10",
+    "@types/react": "19.1.11",
     "@types/react-dom": "19.1.7", 
     "@types/node": "22.17.1",
     "postcss": "8.5.6",
