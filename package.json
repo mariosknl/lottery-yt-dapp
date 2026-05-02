@@ -24,7 +24,7 @@
     "@types/node": "24.12.2",
     "postcss": "8.5.13",
     "autoprefixer": "10.5.0",
-    "tailwindcss": "4.2.2",
+    "tailwindcss": "4.2.4",
     "typescript": "6.0.3"
   }
 }
