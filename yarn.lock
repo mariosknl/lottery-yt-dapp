@@ -5485,10 +5485,10 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.5.13:
-  version "8.5.13"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.13.tgz#6cfaf647f2e7ef69850208eccd849e0d3f65d420"
-  integrity sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==
+postcss@8.5.14:
+  version "8.5.14"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.14.tgz#a66c2d7808fadf69ebb5b84a03f8bafd76c4919c"
+  integrity sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg==
   dependencies:
     nanoid "^3.3.11"
     picocolors "^1.1.1"
@@ -6121,10 +6121,10 @@ system-architecture@^0.1.0:
   resolved "https://registry.yarnpkg.com/system-architecture/-/system-architecture-0.1.0.tgz#71012b3ac141427d97c67c56bc7921af6bff122d"
   integrity sha512-ulAk51I9UVUyJgxlv9M6lFot2WP3e7t8Kz9+IS6D4rVba1tR9kON+Ey69f+1R4Q8cd45Lod6a4IcJIxnzGc/zA==
 
-tailwindcss@4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.2.4.tgz#f7e3090edb22d56394db4d68e6464d2628dc2aa9"
-  integrity sha512-HhKppgO81FQof5m6TEnuBWCZGgfRAWbaeOaGT00KOy/Pf/j6oUihdvBpA7ltCeAvZpFhW3j0PTclkxsd4IXYDA==
+tailwindcss@4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.2.2.tgz#688fb0751c8ca9044e890546510a2ee817308e87"
+  integrity sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==
 
 teeny-request@^9.0.0:
   version "9.0.0"
