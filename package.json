@@ -11,15 +11,15 @@
     "@thirdweb-dev/react": "4.9.4",
     "ethers": "6.16.0",
     "next": "latest",
-    "react": "19.2.5",
+    "react": "19.2.6",
     "react-countdown": "2.3.6",
-    "react-dom": "19.2.5",
+    "react-dom": "19.2.6",
     "react-fast-marquee": "1.6.5",
     "react-hot-toast": "2.6.0",
     "react-spinners": "0.17.0"
   },
   "devDependencies": {
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.15",
     "@types/react-dom": "19.2.3", 
     "@types/node": "24.12.2",
     "postcss": "8.5.15",
