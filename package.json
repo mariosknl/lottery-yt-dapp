@@ -23,7 +23,7 @@
     "@types/react-dom": "19.2.3", 
     "@types/node": "24.13.3",
     "postcss": "8.5.23",
-    "autoprefixer": "10.5.2",
+    "autoprefixer": "10.5.4",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2"
   }
