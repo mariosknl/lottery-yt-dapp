@@ -16,7 +16,7 @@
     "react-dom": "19.2.8",
     "react-fast-marquee": "1.6.5",
     "react-hot-toast": "2.6.0",
-    "react-spinners": "0.17.0"
+    "react-spinners": "0.17.1"
   },
   "devDependencies": {
     "@types/react": "19.2.18",
